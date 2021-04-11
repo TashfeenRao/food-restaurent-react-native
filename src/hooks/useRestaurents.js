@@ -21,7 +21,7 @@ export default () => {
   };
 
   useEffect(() => {
-    onSearch("pizza");
+    onSearch("pasta");
   }, []);
   return [restaurents, errorMessage, onSearch];
 };
